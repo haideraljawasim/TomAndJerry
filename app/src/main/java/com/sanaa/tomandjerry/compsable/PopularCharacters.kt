@@ -30,7 +30,7 @@ import com.sanaa.tomandjerry.ui.theme.IBMSansArabicFont
 fun PopularCharacters(modifier: Modifier = Modifier) {
     LazyRow(
         modifier = Modifier,
-        contentPadding = PaddingValues(16.dp),
+        contentPadding = PaddingValues(horizontal = 16.dp),
         horizontalArrangement = Arrangement.spacedBy(8.dp)
     ) {
         item {

@@ -79,8 +79,8 @@ fun SecretEpisodesScreen(
 
                 LazyRow(
                     modifier = Modifier
-                        .fillMaxWidth().heightIn(max = 400.dp),
-                    contentPadding = PaddingValues(16.dp),
+                        .fillMaxWidth().heightIn(max = 343.dp),
+                    contentPadding = PaddingValues(horizontal = 16.dp),
                     horizontalArrangement = Arrangement.spacedBy(8.dp)
 
                 ) {
@@ -115,7 +115,7 @@ fun SecretEpisodesScreen(
         )
         Spacer12Height()
         PopularCharacters()
-        Spacer(modifier = Modifier.width(16.dp))
+        Spacer(modifier = Modifier.height(16.dp))
     }
 }
 
